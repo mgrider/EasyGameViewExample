@@ -56,6 +56,7 @@
 		85633AAC26C3B86E00ECAEB7 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85633AB026C3B86E00ECAEB7 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		85633AB226C3B86E00ECAEB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F093E21726DB011200829B21 /* EasyGameView */ = {isa = PBXFileReference; lastKnownFileType = folder; name = EasyGameView; path = ../EasyGameView; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +95,7 @@
 		85633A8426C3B86B00ECAEB7 = {
 			isa = PBXGroup;
 			children = (
+				F093E21726DB011200829B21 /* EasyGameView */,
 				85633A8926C3B86B00ECAEB7 /* Shared */,
 				85633A9326C3B86E00ECAEB7 /* iOS */,
 				85633A9A26C3B86E00ECAEB7 /* macOS */,

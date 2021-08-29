@@ -1,11 +1,5 @@
-//
-//  ContentView.swift
-//  Shared
-//
-//  Created by Martin Grider on 8/11/21.
-//
-
 import SwiftUI
+import EasyGameView
 
 struct ContentView: View {
 
@@ -15,22 +9,13 @@ struct ContentView: View {
 
     var body: some View {
 
-        GeometryReader { proxy in
+        VStack {
 
-            let totalWidth = proxy.size.width
-            let totalHeight = proxy.size.height
+            Text("EasyGameView Example")
 
-            let newSize = CGSize(width: totalWidth / CGFloat(cols), height: totalHeight / CGFloat(rows))
-            let gridItems = Array(repeating: GridItem(.fixed(newSize.width), spacing: 0.0), count: cols)
-
-            LazyVGrid(columns: gridItems, spacing: spacing) {
-                ForEach(0..<(cols*rows)) { idx in
-                    EasyGameSubview(color: Color(red: Double.random(in: 0...1), green: Double.random(in: 0...1), blue: Double.random(in: 0...1)))
-                    .frame(width: newSize.width, height: newSize.height)
-                }
-            }
-            .frame(width: totalWidth)
+            EasyGameView()
         }
+
     }
 }
 
