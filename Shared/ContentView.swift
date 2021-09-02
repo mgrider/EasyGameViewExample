@@ -3,17 +3,19 @@ import EasyGameView
 
 struct ContentView: View {
 
-    let cols: Int = 6
-    let rows: Int = 6
-    let spacing: CGFloat = 0
+    @StateObject var exampleState = ExampleState()
 
     var body: some View {
 
-        VStack {
-
-            Text("EasyGameView Example")
-
+        TabView(selection: $exampleState.selectedExampleTab)  {
             EasyGameView()
+                .tabItem {
+                    Text("Default")
+                }.tag(0)
+            ExampleConfigurableView(exampleState: exampleState)
+                .tabItem {
+                    Text("Configurable")
+                }.tag(1)
         }
 
     }

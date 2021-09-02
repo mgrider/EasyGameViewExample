@@ -9,8 +9,12 @@
 /* Begin PBXBuildFile section */
 		850BB66026D32C3D00AB4F0E /* HexGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850BB65F26D32C3D00AB4F0E /* HexGridView.swift */; };
 		850BB66126D32C3D00AB4F0E /* HexGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850BB65F26D32C3D00AB4F0E /* HexGridView.swift */; };
-		85535CA226D3697B00D89F86 /* EasyGameSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85535CA126D3697B00D89F86 /* EasyGameSubview.swift */; };
-		85535CA326D3697B00D89F86 /* EasyGameSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85535CA126D3697B00D89F86 /* EasyGameSubview.swift */; };
+		852F981726DB5C52000F3DE5 /* ExampleColorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852F981626DB5C52000F3DE5 /* ExampleColorProvider.swift */; };
+		852F981826DB5C52000F3DE5 /* ExampleColorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852F981626DB5C52000F3DE5 /* ExampleColorProvider.swift */; };
+		852F981A26DB8A98000F3DE5 /* ExampleState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852F981926DB8A98000F3DE5 /* ExampleState.swift */; };
+		852F981B26DB8A98000F3DE5 /* ExampleState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852F981926DB8A98000F3DE5 /* ExampleState.swift */; };
+		852F981D26DB8B88000F3DE5 /* ExampleConfigurationSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852F981C26DB8B88000F3DE5 /* ExampleConfigurationSheetView.swift */; };
+		852F981E26DB8B88000F3DE5 /* ExampleConfigurationSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852F981C26DB8B88000F3DE5 /* ExampleConfigurationSheetView.swift */; };
 		85633AA626C3B86E00ECAEB7 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85633AA526C3B86E00ECAEB7 /* Tests_iOS.swift */; };
 		85633AB126C3B86E00ECAEB7 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85633AB026C3B86E00ECAEB7 /* Tests_macOS.swift */; };
 		85633AB326C3B86E00ECAEB7 /* EasyGameViewExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85633A8A26C3B86B00ECAEB7 /* EasyGameViewExampleApp.swift */; };
@@ -19,6 +23,9 @@
 		85633AB626C3B86E00ECAEB7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85633A8B26C3B86B00ECAEB7 /* ContentView.swift */; };
 		85633AB726C3B86E00ECAEB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85633A8C26C3B86E00ECAEB7 /* Assets.xcassets */; };
 		85633AB826C3B86E00ECAEB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85633A8C26C3B86E00ECAEB7 /* Assets.xcassets */; };
+		F093E21B26DB169F00829B21 /* EasyGameView in Frameworks */ = {isa = PBXBuildFile; productRef = F093E21A26DB169F00829B21 /* EasyGameView */; };
+		F093E21D26DC021A00829B21 /* ExampleConfigurableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F093E21C26DC021A00829B21 /* ExampleConfigurableView.swift */; };
+		F093E21E26DC021A00829B21 /* ExampleConfigurableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F093E21C26DC021A00829B21 /* ExampleConfigurableView.swift */; };
 		F0BF10BB26D9A62300CFBEB6 /* EasyGameView in Frameworks */ = {isa = PBXBuildFile; productRef = F0BF10BA26D9A62300CFBEB6 /* EasyGameView */; };
 /* End PBXBuildFile section */
 
@@ -41,7 +48,9 @@
 
 /* Begin PBXFileReference section */
 		850BB65F26D32C3D00AB4F0E /* HexGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexGridView.swift; sourceTree = "<group>"; };
-		85535CA126D3697B00D89F86 /* EasyGameSubview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyGameSubview.swift; sourceTree = "<group>"; };
+		852F981626DB5C52000F3DE5 /* ExampleColorProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleColorProvider.swift; sourceTree = "<group>"; };
+		852F981926DB8A98000F3DE5 /* ExampleState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleState.swift; sourceTree = "<group>"; };
+		852F981C26DB8B88000F3DE5 /* ExampleConfigurationSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleConfigurationSheetView.swift; sourceTree = "<group>"; };
 		85633A8A26C3B86B00ECAEB7 /* EasyGameViewExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyGameViewExampleApp.swift; sourceTree = "<group>"; };
 		85633A8B26C3B86B00ECAEB7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		85633A8C26C3B86E00ECAEB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,6 +66,7 @@
 		85633AB026C3B86E00ECAEB7 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		85633AB226C3B86E00ECAEB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F093E21726DB011200829B21 /* EasyGameView */ = {isa = PBXFileReference; lastKnownFileType = folder; name = EasyGameView; path = ../EasyGameView; sourceTree = "<group>"; };
+		F093E21C26DC021A00829B21 /* ExampleConfigurableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleConfigurableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F093E21B26DB169F00829B21 /* EasyGameView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +113,7 @@
 				85633AA426C3B86E00ECAEB7 /* Tests iOS */,
 				85633AAF26C3B86E00ECAEB7 /* Tests macOS */,
 				85633A9226C3B86E00ECAEB7 /* Products */,
+				F093E21926DB169F00829B21 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,7 +122,10 @@
 			children = (
 				85633A8A26C3B86B00ECAEB7 /* EasyGameViewExampleApp.swift */,
 				85633A8B26C3B86B00ECAEB7 /* ContentView.swift */,
-				85535CA126D3697B00D89F86 /* EasyGameSubview.swift */,
+				F093E21C26DC021A00829B21 /* ExampleConfigurableView.swift */,
+				852F981626DB5C52000F3DE5 /* ExampleColorProvider.swift */,
+				852F981C26DB8B88000F3DE5 /* ExampleConfigurationSheetView.swift */,
+				852F981926DB8A98000F3DE5 /* ExampleState.swift */,
 				850BB65F26D32C3D00AB4F0E /* HexGridView.swift */,
 				85633A8C26C3B86E00ECAEB7 /* Assets.xcassets */,
 			);
@@ -163,6 +178,13 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		F093E21926DB169F00829B21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -199,6 +221,9 @@
 			dependencies = (
 			);
 			name = "EasyGameViewExample (macOS)";
+			packageProductDependencies = (
+				F093E21A26DB169F00829B21 /* EasyGameView */,
+			);
 			productName = "EasyGameViewExample (macOS)";
 			productReference = 85633A9926C3B86E00ECAEB7 /* EasyGameViewExample.app */;
 			productType = "com.apple.product-type.application";
@@ -326,10 +351,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				852F981D26DB8B88000F3DE5 /* ExampleConfigurationSheetView.swift in Sources */,
 				85633AB526C3B86E00ECAEB7 /* ContentView.swift in Sources */,
-				85535CA226D3697B00D89F86 /* EasyGameSubview.swift in Sources */,
 				85633AB326C3B86E00ECAEB7 /* EasyGameViewExampleApp.swift in Sources */,
+				F093E21D26DC021A00829B21 /* ExampleConfigurableView.swift in Sources */,
+				852F981A26DB8A98000F3DE5 /* ExampleState.swift in Sources */,
 				850BB66026D32C3D00AB4F0E /* HexGridView.swift in Sources */,
+				852F981726DB5C52000F3DE5 /* ExampleColorProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,10 +365,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				852F981E26DB8B88000F3DE5 /* ExampleConfigurationSheetView.swift in Sources */,
 				85633AB626C3B86E00ECAEB7 /* ContentView.swift in Sources */,
-				85535CA326D3697B00D89F86 /* EasyGameSubview.swift in Sources */,
 				85633AB426C3B86E00ECAEB7 /* EasyGameViewExampleApp.swift in Sources */,
+				F093E21E26DC021A00829B21 /* ExampleConfigurableView.swift in Sources */,
+				852F981B26DB8A98000F3DE5 /* ExampleState.swift in Sources */,
 				850BB66126D32C3D00AB4F0E /* HexGridView.swift in Sources */,
+				852F981826DB5C52000F3DE5 /* ExampleColorProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -731,6 +762,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		F093E21A26DB169F00829B21 /* EasyGameView */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = EasyGameView;
+		};
 		F0BF10BA26D9A62300CFBEB6 /* EasyGameView */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = F0BF10B926D9A62300CFBEB6 /* XCRemoteSwiftPackageReference "EasyGameView" */;
