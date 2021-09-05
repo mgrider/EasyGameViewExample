@@ -27,6 +27,8 @@
 		F093E21D26DC021A00829B21 /* ExampleConfigurableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F093E21C26DC021A00829B21 /* ExampleConfigurableView.swift */; };
 		F093E21E26DC021A00829B21 /* ExampleConfigurableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F093E21C26DC021A00829B21 /* ExampleConfigurableView.swift */; };
 		F0BF10BB26D9A62300CFBEB6 /* EasyGameView in Frameworks */ = {isa = PBXBuildFile; productRef = F0BF10BA26D9A62300CFBEB6 /* EasyGameView */; };
+		F0D0EF7B26E5671800B146AA /* ExampleDragHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D0EF7A26E5671800B146AA /* ExampleDragHandler.swift */; };
+		F0D0EF7C26E5671800B146AA /* ExampleDragHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D0EF7A26E5671800B146AA /* ExampleDragHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,8 +67,9 @@
 		85633AAC26C3B86E00ECAEB7 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85633AB026C3B86E00ECAEB7 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		85633AB226C3B86E00ECAEB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F093E21726DB011200829B21 /* EasyGameView */ = {isa = PBXFileReference; lastKnownFileType = folder; name = EasyGameView; path = ../EasyGameView; sourceTree = "<group>"; };
 		F093E21C26DC021A00829B21 /* ExampleConfigurableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleConfigurableView.swift; sourceTree = "<group>"; };
+		F0D0EF7926E5651F00B146AA /* EasyGameView */ = {isa = PBXFileReference; lastKnownFileType = folder; name = EasyGameView; path = ../EasyGameView; sourceTree = "<group>"; };
+		F0D0EF7A26E5671800B146AA /* ExampleDragHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleDragHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +109,7 @@
 		85633A8426C3B86B00ECAEB7 = {
 			isa = PBXGroup;
 			children = (
-				F093E21726DB011200829B21 /* EasyGameView */,
+				F0D0EF7926E5651F00B146AA /* EasyGameView */,
 				85633A8926C3B86B00ECAEB7 /* Shared */,
 				85633A9326C3B86E00ECAEB7 /* iOS */,
 				85633A9A26C3B86E00ECAEB7 /* macOS */,
@@ -125,6 +128,7 @@
 				F093E21C26DC021A00829B21 /* ExampleConfigurableView.swift */,
 				852F981626DB5C52000F3DE5 /* ExampleColorProvider.swift */,
 				852F981C26DB8B88000F3DE5 /* ExampleConfigurationSheetView.swift */,
+				F0D0EF7A26E5671800B146AA /* ExampleDragHandler.swift */,
 				852F981926DB8A98000F3DE5 /* ExampleState.swift */,
 				850BB65F26D32C3D00AB4F0E /* HexGridView.swift */,
 				85633A8C26C3B86E00ECAEB7 /* Assets.xcassets */,
@@ -354,6 +358,7 @@
 				852F981D26DB8B88000F3DE5 /* ExampleConfigurationSheetView.swift in Sources */,
 				85633AB526C3B86E00ECAEB7 /* ContentView.swift in Sources */,
 				85633AB326C3B86E00ECAEB7 /* EasyGameViewExampleApp.swift in Sources */,
+				F0D0EF7B26E5671800B146AA /* ExampleDragHandler.swift in Sources */,
 				F093E21D26DC021A00829B21 /* ExampleConfigurableView.swift in Sources */,
 				852F981A26DB8A98000F3DE5 /* ExampleState.swift in Sources */,
 				850BB66026D32C3D00AB4F0E /* HexGridView.swift in Sources */,
@@ -368,6 +373,7 @@
 				852F981E26DB8B88000F3DE5 /* ExampleConfigurationSheetView.swift in Sources */,
 				85633AB626C3B86E00ECAEB7 /* ContentView.swift in Sources */,
 				85633AB426C3B86E00ECAEB7 /* EasyGameViewExampleApp.swift in Sources */,
+				F0D0EF7C26E5671800B146AA /* ExampleDragHandler.swift in Sources */,
 				F093E21E26DC021A00829B21 /* ExampleConfigurableView.swift in Sources */,
 				852F981B26DB8A98000F3DE5 /* ExampleState.swift in Sources */,
 				850BB66126D32C3D00AB4F0E /* HexGridView.swift in Sources */,

@@ -4,7 +4,7 @@ import EasyGameView
 class ExampleState: ObservableObject {
 
     @Published var selectedExampleTab = 0
-    
+
     @Published var configurationShown = false
 
     @Published var configurableManager = EasyGameManager(
@@ -30,5 +30,42 @@ class ExampleState: ObservableObject {
             configurableManager.game.gridHeight = Int(gameRows)
         }
     }
+
+    @Published var dragGrowsSubviews = true {
+        didSet {
+            configurableManager.config.dragScaleMultiplier = dragGrowsSubviews ? 1.25 : 1
+        }
+    }
+
+    @Published var state0Color: Color = .red {
+        didSet {
+            ExampleColorProvider.color0 = state0Color
+        }
+    }
+
+    @Published var state1Color: Color = .green {
+        didSet {
+            ExampleColorProvider.color1 = state1Color
+        }
+    }
+
+    @Published var state2Color: Color = .blue {
+        didSet {
+            ExampleColorProvider.draggingColor = state2Color
+        }
+    }
+
+    @Published var state3Color: Color = .yellow {
+        didSet {
+            ExampleColorProvider.draggedEndColor = state3Color
+        }
+    }
+
+    @Published var stateDefaultColor: Color = .gray {
+        didSet {
+            ExampleColorProvider.defaultColor = stateDefaultColor
+        }
+    }
+
 
 }

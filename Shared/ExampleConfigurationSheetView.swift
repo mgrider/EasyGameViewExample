@@ -35,6 +35,16 @@ struct ExampleConfigurationSheetView: View {
                     Text("Tap Changes Grid States")
                 })
 
+                Toggle(isOn: $exampleState.dragGrowsSubviews, label: {
+                    Text("Grow Subviews While Dragging")
+                })
+
+                ColorPicker("Empty State Color", selection: $exampleState.stateDefaultColor)
+                ColorPicker("First State Color", selection: $exampleState.state0Color)
+                ColorPicker("Second State Color", selection: $exampleState.state1Color)
+                ColorPicker("Dragging Color", selection: $exampleState.state2Color)
+                ColorPicker("Drag End Color", selection: $exampleState.state3Color)
+
                 Spacer()
 
             }
@@ -45,6 +55,8 @@ struct ExampleConfigurationSheetView: View {
                 Button(
                     action: {
                         self.exampleState.configurationShown = false
+                        let state = self.manager.game.stateAt(index: 0) ?? self.manager.game.stateDefault
+                        self.manager.game.setState(atIndex: 0, to: state)
                     }) {
                         Text("Done").bold()
                     }
