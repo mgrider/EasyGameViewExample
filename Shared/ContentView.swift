@@ -16,6 +16,10 @@ struct ContentView: View {
                 .tabItem {
                     Text("Configurable")
                 }.tag(1)
+            HexGridView(exampleState: exampleState)
+                .tabItem {
+                    Text("Hex")
+                }.tag(2)
         }
 
     }
